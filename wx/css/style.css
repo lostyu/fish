@@ -172,6 +172,7 @@ a {
     text-align: center;
     font-size:14px;
     color: #fff;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .m-nav2 li a img{
     width:30px;
