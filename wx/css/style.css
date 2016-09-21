@@ -39,6 +39,9 @@ a {
     white-space: nowrap;
     overflow: hidden;
 }
+.f-fr{
+    float: right;
+}
 .c1{
     color: #84ccc9;
 }
@@ -183,6 +186,8 @@ a {
     background-color: #739574;
 }
 
+
+
 .m-list3{
     overflow: hidden;
     margin-top:10px;
@@ -223,6 +228,20 @@ a {
     font-size:12px;
 }
 
+
+.m-list3-1 .pic{
+    width:50px;
+    height:50px;
+}
+.m-list3-1 .text .tit{
+    padding-right:0;
+}
+.m-list3-1 .text .p1 .mi{
+    float: right;
+    margin-top:7px;
+    color: #84ccc9;
+}
+
 .m-top-place{
     height:100px;
 }
@@ -256,6 +275,76 @@ a {
     background-size: 24px 24px;
     vertical-align: middle;
 }
+
+.m-top .place2{
+    position: relative;
+}
+.m-top .place2 .ipt-wrap{
+    padding-right:50px;
+}
+.m-top .place2 .ipt{
+    box-sizing: border-box;
+    width:100%;
+    padding:0 10px;
+    line-height:30px;
+    border:1px solid #ddd;
+    background: url(../img/icon-search.png) right 5px top 6px no-repeat;
+    background-size: 16px auto;
+}
+.m-top .place2 span{
+    position: absolute;
+    right:8px;
+    top:18px;
+}
+.m-top .place2 span a{
+    color: #84ccc9;
+    text-decoration: underline;
+}
+.m-top .tab2{
+    padding:10px 0;
+}
+.m-top .tab3{
+    padding:7px 0;
+    margin-left:70px;
+    border-bottom:1px solid #ddd;
+}
+.swiper-slide{
+    text-align: center;
+}
+.swiper-slide.active{
+    color: #84ccc9;
+}
+
+.listBox{
+    padding-left:75px;
+}
+
+.m-side .swiper-container{
+    height:100%;
+}
+.m-side .swiper-slide{
+    line-height:30px;
+}
+.m-side{
+    position: absolute;
+    z-index: 99999;
+    left:0;
+    top:53px;
+    bottom:55px;
+    width:70px;
+    border-right: 1px solid #ddd;
+    background-color: #fff;
+    font-size:12px;
+}
+.m-side a {
+    display: block;
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+.m-side .active a{
+    color: #84ccc9;
+}
+
 .m-top .tab ul{
     margin:0;
     padding:0;
@@ -315,6 +404,79 @@ a {
 .m-mdxq .m-list3 .text .btn i{
     vertical-align: sub;
     color: #84ccc9;
+}
+
+
+
+.m-comment{
+    margin-top:10px;
+    background-color: #fff;
+}
+.m-comment .hd{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+.m-comment .hd .btn{
+    float: right;
+}
+.m-comment .bd{
+    padding:10px;
+}
+.m-comment .bd .items{
+    list-style: none;
+    padding-bottom:10px;
+}
+.m-comment .items .pic{
+    width: 50px;
+    height:50px;
+    float: left;
+    margin-right:10px;
+}
+.m-comment .items .pic img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+.m-comment .items .text{
+    overflow: hidden;
+    font-size:14px;
+    border-bottom:1px solid #ddd;
+}
+.m-comment .items .text .name{
+    margin-bottom:5px;
+    color: #000;
+}
+.m-comment .items .text .time{
+    float: right;
+    color: #999;
+}
+.m-comment .items .text .cnt{
+    padding-bottom:10px;
+    color: #333;
+}
+
+.m-comment-ipt{
+    box-sizing: border-box;
+    position: fixed;
+    z-index:999999;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding: 10px;
+    background-color: #fff;
+    transition: .5s;
+    opacity:0;
+    transform: translateX(100%);
+}
+.m-comment-ipt.active{
+    opacity:1;
+    transform: translateX(0);
+}
+.m-comment-ipt textarea{
+    box-sizing: border-box;
+    width:100%;
+    padding:10px;
 }
 
 
