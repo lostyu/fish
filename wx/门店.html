@@ -24,17 +24,21 @@
         <span><a href="javascript:;">附近门店</a></span>
     </div>
     <div class="tab tab2">
-        <div class="swiper-container">
-            <div class="swiper-wrapper j-lbList">
-                <div class="swiper-slide active" data-id="1">全部</div>
-                <div class="swiper-slide" data-id="2">江北区</div>
-                <div class="swiper-slide" data-id="3">大渡口区</div>
-                <div class="swiper-slide" data-id="4">南岸区</div>
-                <div class="swiper-slide" data-id="5">渝中区</div>
-                <div class="swiper-slide" data-id="6">江北区</div>
-                <div class="swiper-slide" data-id="7">大渡口区</div>
-                <div class="swiper-slide" data-id="8">南岸区</div>
-            </div>
+        <div class="swiper-container" style="padding: 0 30px;">
+
+                <div class="swiper-wrapper j-lbList">
+                    <div class="swiper-slide active" data-id="1">全部</div>
+                    <div class="swiper-slide" data-id="2">江北区</div>
+                    <div class="swiper-slide" data-id="3">大渡口区</div>
+                    <div class="swiper-slide" data-id="4">南岸区</div>
+                    <div class="swiper-slide" data-id="5">渝中区</div>
+                    <div class="swiper-slide" data-id="6">江北区</div>
+                    <div class="swiper-slide" data-id="7">大渡口区</div>
+                    <div class="swiper-slide" data-id="8">南岸区</div>
+                </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
 </div>
@@ -163,7 +167,9 @@
             slidesPerView: 4,
             paginationClickable: true,
             spaceBetween: 10,
-            freeMode: true
+            freeMode: true,
+//            nextButton: '.swiper-button-next',
+//            prevButton: '.swiper-button-prev'
         });
 
 
